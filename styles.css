@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: "Verdana", "Geneva", "Tahoma", sans-serif;
 }
 
 h1, h2 {
@@ -7,4 +7,29 @@ h1, h2 {
     font-family: "Coral Pixels", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+h2 {
+    overflow: hidden;
+}
+  
+h2::before,
+h2::after {
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+  
+h2::before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+  
+h2::after {
+    left: 0.5em;
+    margin-right: -50%;
 }
