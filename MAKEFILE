@@ -1,4 +1,4 @@
 .PHONY: all
 
 all:
-	make -C projects/boids
+	make web -C projects/boids
