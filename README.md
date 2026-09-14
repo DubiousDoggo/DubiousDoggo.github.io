@@ -1,3 +1,3 @@
 # Hello, it's Dubi. 
-heres my website [dubiousdoggo.github.io]
-    - Dubi
+heres my website <https://dubiousdoggo.github.io>
+ -- Dubi
