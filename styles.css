@@ -36,3 +36,9 @@ h2::after {
     left: 0.5em;
     margin-right: -50%;
 }
+
+
+.old {
+    display:block;
+    box-shadow: inset;
+}
